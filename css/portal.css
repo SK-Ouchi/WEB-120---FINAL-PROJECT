@@ -1,0 +1,54 @@
+.mosaic-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(15, 5vw);
+    grid-gap: 5px;
+}
+
+.mosaic_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.mosaic_item-1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+  
+.mosaic_item-2 {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 9;
+}
+  
+.mosaic_item-3 {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+  
+.mosaic_item-4 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+  
+.mosaic_item-5 {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    grid-row-start: 7;
+    grid-row-end: 16;
+}
+  
+.mosaic_item-6 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 9;
+    grid-row-end: 16;
+}

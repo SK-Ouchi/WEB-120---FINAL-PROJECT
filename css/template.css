@@ -1,0 +1,85 @@
+/*styles found across all pages */
+
+.pageID{
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 1%;
+} 
+
+main{
+    font-family: 'EB Garamond', serif;
+}
+
+footer{
+    clear:both;
+}
+
+@media all and (min-width:1400px) {
+    /*Content in section is shifted to the right. Compensating for side nav.*/
+    section{
+        margin-left: 14vw;
+    }
+    aside{
+        width: 37%;
+        float:right;
+        overflow: auto;
+    }
+    
+    .pageID{
+        margin-left: 14vw;
+    }
+
+    footer p{
+        margin-left: 14vw;
+    }
+   
+    footer span img{
+        display:none
+    }
+}
+
+@media all and (min-width:737px) and (max-width:1399px) {
+    section{
+        width: 90%;
+        margin:0 auto;
+    }
+    .pageID{
+        margin:0 auto;
+        text-align: center;
+    }
+    footer{
+        margin:0 auto;
+        text-align: center;
+    }
+    footer span img{
+        max-width: 5%;
+        height:auto;
+        margin: 0 auto;
+        padding: 1%;
+    }
+}
+
+@media all and (max-width:736px) {
+    section{
+        margin:0 auto;
+        width: 90%;
+    }
+    aside{
+        margin:0 auto;
+        width: 90%;
+    }
+    .pageID{
+        margin:0 auto;
+        text-align: center;    
+    }
+    footer{
+        margin:0 auto;
+        text-align: center;
+    }
+    footer span img{
+        max-width: 7%;
+        height:auto;
+        padding: 1%;
+    }
+}

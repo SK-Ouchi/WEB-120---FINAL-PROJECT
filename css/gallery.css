@@ -1,0 +1,51 @@
+.gallery-layout {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4px 4px;
+}
+      
+/* Create three equal columns that sits next to each other using flexbox */
+.gallery-thumb {
+    flex: 25%;
+    width: 25%;
+    height:25%;
+    padding: 4px 4px;
+    overflow: hidden;
+}
+      
+.gallery-thumb img {
+    width: 100%;
+}
+
+.gallery-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+}
+
+.image-card{
+    height: 71vh;
+    width: auto;
+    margin-right:.4vw;
+}
+
+.image-card img{
+    height:70vh;
+    width:auto;
+    margin:auto;
+}
+
+@media all and (max-width:736px) {
+    .image-card{
+        height: 65vh;
+        width: auto;
+        margin-right:.4vw;
+    }
+    
+    .image-card img{
+        height:63vh;
+        width:auto;
+        margin:auto;
+    }
+}

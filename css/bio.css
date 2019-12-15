@@ -1,0 +1,24 @@
+.bio{
+    width: 45%;
+    float:left;
+    padding:1%;
+}
+
+.bio-picture{
+    width: 100%;
+    height: auto;
+}
+
+@media all and (max-width:1399px) {
+    .bio{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+
+    .bio-picture{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
